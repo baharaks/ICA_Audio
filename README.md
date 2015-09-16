@@ -3,7 +3,7 @@ ICA for cocktail party problem.
 
 In this short project, I tried to combine matlab and R inorder to solve a cocktail party problem. The file named cocktailpartyR.R 
 reads the two wav files then use sdv function which is an interpretation of ICA and separate the mixed audio signals. Then 
-save the new signal as a CSV file. In matlab I play the two wav files and then load the CSV file reulted from R and play it. 
+save the new signal as a CSV file. In matlab I play the two wav files and then load the CSV file resulted from R and play it. 
 
 R:
 
