@@ -1,9 +1,7 @@
 # ICA_Audio
-ICA for cocktail party problem.
+Machine learning algorithm for cocktail party problem. 
 
-In this short project, I tried to combine matlab and R inorder to solve a cocktail party problem. The file named cocktailpartyR.R 
-reads the two wav files then use sdv function which is an interpretation of ICA and separate the mixed audio signals. Then 
-save the new signal as a CSV file. In matlab I play the two wav files and then load the CSV file resulted from R and play it. 
+In this short project, I tried to combine matlab and R inorder to solve a cocktail party problem. The file named cocktailpartyR.R reads the two wav files then use Singular value decomposition (sdv) function. It is widely used in statistics where it is related to principal component analysis and here I use it to separate the mixed audio signals. Later I saved the new signal as a CSV file. 
 
 R:
 
